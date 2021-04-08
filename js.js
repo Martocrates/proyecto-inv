@@ -1,3 +1,3 @@
-function saludo(){
-    alert ("holaXD");
+function saludo() {
+	alert("hola putito");
 }
