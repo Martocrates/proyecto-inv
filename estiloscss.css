@@ -95,3 +95,7 @@ img.izquierda {
 	width: 500px; height: 500px;
 	float: left;
   }
+  img.derecha {
+	width: 500px; height: 500px;
+	float: right;
+  }
