@@ -99,3 +99,19 @@ img.izquierda {
 	width: 500px; height: 500px;
 	float: right;
   }
+  .wrapper {
+	max-width: 96000px; /* 20px smaller, to fit the paddings on the sides */
+  
+	padding-right: 175px;
+	padding-left: 200px;
+  color: rgb(190, 166, 166);
+	/* ...  */
+  }
+  .img-holder{
+	
+	 }
+
+  .blocks-holder{
+	background-color: rgba(0, 0, 0, .5);
+  }
+ 
