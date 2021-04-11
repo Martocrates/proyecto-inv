@@ -99,6 +99,7 @@ img.izquierda {
 	width: 500px; height: 500px;
 	float: right;
   }
+  /*Estilo de los semestres*/
   .wrapper {
 	max-width: 96000px; /* 20px smaller, to fit the paddings on the sides */
   
@@ -114,4 +115,70 @@ img.izquierda {
   .blocks-holder{
 	background-color: rgba(0, 0, 0, .5);
   }
- 
+  /*Fin del estilo de los semestres*/
+
+ /*Inicio del estilo para los cursos*/
+
+ .page-title-holder{
+	width: 100%;
+	margin-bottom: 18px;
+	padding-bottom: 18px;
+	border-bottom: 1px #ccc dashed;
+}
+
+.page-title{
+	font-size: 40px;
+	color: #1f1f1f;
+	margin-left: 10px;
+}
+	
+.page-subtitle{
+	font-size: 26px;
+	color: #555555;
+	margin-left: 10px;
+}
+
+
+.page-title-holder > .page-title,
+.page-title-holder > .page-subtitle{
+	margin-left: 30px;
+}
+
+.page-title-holder  .link-button{
+	margin-left: 30px;
+}
+.wrapper-portfolio{
+	width: 960px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.wrapper-portfolio .portfolio-item{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.wrapper-portfolio .portfolio-feature{
+	float: left;
+}
+
+.wrapper-portfolio .portfolio-content{
+	float: left;
+	width: 300px;
+	margin-left: 20px;
+}
+
+.wrapper-portfolio .portfolio-content .portfolio-title{
+	font-size: 30px;
+	color: #1f1f1f;	
+}
+
+.wrapper-portfolio .portfolio-content .client-title{
+	font-size: 16px;
+	color: #555555;	
+}
+
+.wrapper-portfolio .portfolio-content .excerpt{
+	line-height: 1.5em;
+}
